@@ -6,7 +6,7 @@
 html {
   scroll-behavior: smooth;
 }
-body{
+body {
   background-color: #63f74f;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -42,9 +42,9 @@ nav li a {
   background-size: cover;
   height: 100vh;
 }
-.hero::before{
+.hero::before {
   content: "";
-  background-image:linear-gradient(  #63f74f00, #63f74f);
+  background-image: linear-gradient(#63f74f00, #63f74f);
   width: 100%;
   height: 100vh;
   position: absolute;
@@ -102,7 +102,7 @@ nav li a {
   font-size: large;
   margin-top: 50px;
   text-transform: capitalize;
-  transition: .5s;
+  transition: 0.5s;
 }
 .boxingcenter input:hover {
   background-color: #fff;
@@ -124,23 +124,13 @@ nav li a {
 .scroll-raiht_lift img:hover {
   background-color: #fff;
 }
-.about-class {
-  position: relative;
-  margin-top: 19%;
-  height: 800px;
-}
 .about-class img {
-  position: relative;
-  top: 70px;
   width: 1250px;
   display: flex;
   justify-self: end;
 }
 .about {
   width: 190px;
-  position: absolute;
-  top: 100px;
-  left: 20%;
 }
 .about h2 {
   text-transform: uppercase;
@@ -157,15 +147,10 @@ nav li a {
   top: 0;
 }
 .about hr {
-  position: relative;
-  left: 30px;
   border: solid 1.5px white;
   width: 150px;
-  top: 30px;
 }
 .about input {
-  position: relative;
-  left: 50px;
   width: 150px;
   background-color: #000000;
   color: #ffffff;
@@ -186,7 +171,6 @@ nav li a {
   color: #000;
 }
 .our-classes-videos {
-  position: relative;
   width: 100%;
   height: 900px;
 }
@@ -194,54 +178,33 @@ nav li a {
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 700;
-  position: absolute;
-  left: 17%;
-  bottom: 94%;
 }
-
 .our-classes-videos img {
-  position: relative;
-  left: 16%;
   border-left: black solid 80px;
-  top: 150px;
   margin-left: 10px;
 }
 .our-classes-videos p {
   font-size: large;
   width: 750px;
-  position: absolute;
-  top: 50px;
-  left: 17%;
   color: #fff;
-}
-.next-grey {
-  position: absolute;
-  top: 20%;
-  right: 50px;
-  height: 1px;
 }
 .next-grey img {
   border: none;
   padding: 20px;
   border-radius: 100%;
   background-color: rgb(0, 0, 0);
-  position: relative;
   margin: auto;
   margin-bottom: 5px;
 }
 .next-grey span img {
   padding: 30px;
   margin-right: 30px;
-  position: relative;
-  left: 5px;
   margin: auto;
 }
 .play1 {
   display: flex;
   width: 30%;
   height: 100px;
-  position: relative;
-  left: 15%;
 }
 .play1 a {
   width: 60px;
@@ -252,14 +215,8 @@ nav li a {
   background-size: 20px;
   background-position: center;
   background-color: #292929;
-  position: relative;
-  left: 35px;
-  padding: px;
 }
 .play1 h2 {
-  position: absolute;
-  bottom: 5px;
-  left: 140px;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 45px;
@@ -268,9 +225,6 @@ nav li a {
 .play1 input {
   padding: 10px;
   width: 160px;
-  position: absolute;
-  left: 25px;
-  top: 150px;
   height: 45px;
   padding: 10px;
   width: 140px;
@@ -294,9 +248,6 @@ nav li a {
   right: 335px;
 }
 .play2 h2 {
-  position: absolute;
-  bottom: 105px;
-  left: 170px;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 45px;
@@ -319,9 +270,6 @@ nav li a {
   padding: 10px;
   width: 160px;
   text-transform: capitalize;
-  position: relative;
-  left: 0;
-  top: 50px;
   height: 45px;
   padding: 10px;
   width: 140px;
@@ -338,44 +286,30 @@ nav li a {
   color: #000;
 }
 .Latest-Blog {
-  position: relative;
   width: 100%;
   height: 900px;
   background-color: #63f74f;
 }
 .Latest-Blog img {
   width: 745px;
-  position: relative;
+
   top: 120px;
   border-bottom: #292929 335px solid;
 }
 .Latest-Blog h2 {
-  position: absolute;
-  left: 17%;
   text-transform: uppercase;
   font-size: 30px;
 }
 
 .Latest-Blog p {
-  position: absolute;
-  top: 45px;
-  left: 17%;
   font-size: large;
   color: #fff;
 }
 .date-17feb {
-  position: absolute;
-  bottom: 33%;
-  left: 50px;
   background-color: #63f74f;
   width: 80px;
   height: 80px;
   border-radius: 50px;
-}
-.date-17feb p {
-  position: absolute;
-  top: 0;
-  left: 29px;
 }
 .date-17feb h2 {
   position: absolute;
@@ -385,14 +319,9 @@ nav li a {
   left: 0;
 }
 .date-17feb span p {
-  position: absolute;
   width: 450px;
-  top: 155px;
-  left: 0;
 }
 .date-17feb input {
-  position: absolute;
-  top: 250px;
   padding: 10px;
   width: 140px;
   border-radius: 30px;
@@ -403,43 +332,20 @@ nav li a {
   margin-top: 50px;
   text-transform: capitalize;
 }
-.img-b2 {
-  position: absolute;
-  width: 745px;
-  right: 0;
-  top: 0;
-}
 .date2-17feb {
-  position: absolute;
-  bottom: 33%;
-  right: 40%;
   background-color: #63f74f;
   width: 80px;
   height: 80px;
   border-radius: 50px;
 }
-.date2-17feb p {
-  position: absolute;
-  top: 0;
-  left: 29px;
-}
 .date2-17feb h2 {
-  position: absolute;
   color: #fff;
   width: 400px;
-  top: 100px;
-  left: 0;
 }
 .date2-17feb span p {
-  position: absolute;
   width: 450px;
-  top: 155px;
-  left: 0;
 }
 .date2-17feb input {
-  position: absolute;
-  left: 0;
-  top: 250px;
   padding: 10px;
   width: 140px;
   border-radius: 30px;
@@ -459,7 +365,6 @@ nav li a {
   color: #000;
 }
 .what-says-our-stdudents {
-  position: absolute;
   width: 100%;
   height: 900px;
 }
@@ -467,50 +372,30 @@ nav li a {
 p {
   display: flex;
   justify-content: center;
-  position: relative;
-  top: 90px;
 }
 .what-says-our-stdudents h2 {
   text-transform: uppercase;
   font-size: 30px;
 }
 .what-says-our-stdudents p {
-  font-size: larger;
-  position: relative;
-  top: 65px;
   color: #fff;
 }
 .clinet-1 {
   background-color: #000000;
   width: 450px;
   height: 450px;
-  position: relative;
-  left: 20%;
-  top: 220px;
 }
 .clinet-1 img {
-  position: relative;
-  left: 32%;
-  bottom: 80px;
   width: 160px;
 }
 .clinet-1 span img {
-  position: absolute;
-  left: 47%;
-  bottom: 5%;
   width: 40px;
 }
 .clinet-1 h2 {
   text-transform: capitalize;
-  position: absolute;
-  bottom: 50%;
-  right: 38%;
   color: #fff;
 }
 .clinet-1 p {
-  position: relative;
-  top: 0;
-  left: 55px;
   width: 350px;
   font-size: large;
   color: #fff;
@@ -519,41 +404,23 @@ p {
   background-color: #000000;
   width: 450px;
   height: 450px;
-  position: relative;
-  left: 55%;
-  bottom: 230px;
 }
 .clinet-2 img {
-  position: relative;
-  left: 30%;
-  bottom: 80px;
   width: 160px;
 }
 .clinet-2 span img {
-  position: absolute;
-  left: 47%;
-  bottom: 5%;
   width: 40px;
 }
 .clinet-2 h2 {
   text-transform: capitalize;
-  position: absolute;
-  bottom: 50%;
-  right: 35%;
   color: #fff;
 }
 .clinet-2 p {
-  position: relative;
-  top: 0;
-  left: 55px;
   width: 350px;
   font-size: large;
   color: #fff;
 }
 .next {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
   height: 40px;
   width: 50px;
 }
@@ -571,39 +438,22 @@ p {
   bottom: 0;
 }
 .next-right {
-  position: absolute;
-  right: 45%;
-  bottom: 0;
   width: 48px;
   border-radius: 10px;
   height: 40px;
   background-color: #fff;
   padding: 5px;
 }
-.next-right img {
-  position: absolute;
-  top: 35%;
-  left: 17px;
-}
-.input-information {
-  position: absolute;
-}
 .input-information {
   display: flex;
   flex-direction: column;
-  position: absolute;
-  right: 50%;
 }
 footer {
-  position: relative;
-  top: 1000px;
   width: 100%;
   height: 700px;
 }
 footer img {
   width: 650px;
-  position: absolute;
-  right: 0;
 }
 footer h2 {
   margin-left: 25px;
@@ -649,24 +499,13 @@ button {
   font-size: large;
 }
 iframe {
-  position: absolute;
-  top: 700px;
-  right: 43%;
   width: 665px;
   height: 300px;
   border: none;
 }
 .icones img {
-  position: relative;
   width: 25px;
   height: 25px;
-  top: 1010px;
-  left: 180px;
   margin: 10px;
   padding: 10px;
-}
-footer p {
-  position: relative;
-  top: 1010px;
-  right: 340px;
 }
