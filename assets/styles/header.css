@@ -9,6 +9,10 @@ html {
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+:root{
+  --white:#ffffff;
+  --black:#000000;
+}
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -31,7 +35,60 @@ body {
 ul{
   list-style: none;
 }
+img {
+  max-width: 100%;
+}
 a{
   text-decoration: none;
-  text-transform: capitalize;
+  font-size: 17px;
+}
+header {
+  background-color: var(--white);
+}
+header .container {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0;
+  padding-right: 0;
+}
+header .container .logo {
+  padding-top: 30px;
+}
+header .container .logo img {
+  width: 150px;
+}
+@media (max-width:991px) {
+  header .container nav ul {
+    display: none;
+  }
+}
+@media (min-width:992px) {
+  header .container nav ul {
+    display: flex;
+  }
+  header .container nav .contact_info {
+    width: 100%;
+    background-color: var(--black);
+    gap: 35px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50px 100%, 10% 100%); 
+    padding: 10px 170px 10px 70px;
+    margin-top: 5px;
+  }
+  header .container nav .contact_info a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--white);
+  }
+  header .container nav ul:last-child{
+    justify-content: center;
+    gap: 30px;
+    padding: 15px 0;
+  }
+  header .container nav ul:last-child a{
+    color: var(--black);
+    font-size: 18px;
+    text-transform: uppercase;
+  }
 }
