@@ -53,7 +53,7 @@ header .container {
   padding-right: 0;
 }
 header .container .logo {
-  padding-top: 30px;
+  padding: 20px;
 }
 header .container .logo img {
   width: 150px;

@@ -12,7 +12,7 @@ body {
 :root{
   --white:#ffffff;
   --black:#000000;
-  --main:#63f74f;
+  --main:#1eff01;
 }
 @media (min-width: 768px) {
   .container {
@@ -40,7 +40,7 @@ a{
   text-decoration: none;
 }
 .hero {
-  height: 100vh;
+  padding-top: 70px;
   background-image: url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -54,11 +54,13 @@ a{
   position: absolute;
 }
 .hero .container {
+  height: 100vh;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .hero .container .oxer {
-  font-size: 90px;
+  font-size: 120px;
   font-weight: bold;
   rotate: 90deg;
 }
@@ -67,6 +69,11 @@ a{
 }
 .hero .container .oxer h1 span {
   color:var(--main);
+}
+@media (max-width:991px) {
+  .hero .container .oxer h1 {
+    display: none;
+  }
 }
 .hero .container .center {
   display: flex;
